@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eo pipefail
 
-gpg --quiet --batch --yes --decrypt --passphrase="$IOS_KEYS" --output ./.github/secrets/calculatorIOS.mobileprovision ./.github/secrets/calculatorIOS.mobileprovision.gpg
+gpg --quiet --batch --yes --decrypt --passphrase="$IOS_KEYS" --output ./.github/secrets/calculatorIOS.mobileprovision ./.github/secrets/calculatorIOS_Dist.mobileprovision.gpg
 gpg --quiet --batch --yes --decrypt --passphrase="$IOS_KEYS" --output ./.github/secrets/ghanathe-dist.p12 ./.github/secrets/ghanathe-dist.p12.gpg
 
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles

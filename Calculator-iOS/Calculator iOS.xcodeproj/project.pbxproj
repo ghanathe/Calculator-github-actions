@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EFD487B25757D4C00F1DE88 /* playstore.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFD487825757D4C00F1DE88 /* playstore.png */; };
+		2EFD487C25757D4C00F1DE88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EFD487925757D4C00F1DE88 /* Assets.xcassets */; };
+		2EFD487D25757D4C00F1DE88 /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFD487A25757D4C00F1DE88 /* appstore.png */; };
 		6F04CE38237B538F00B0CB26 /* Calculator in Frameworks */ = {isa = PBXBuildFile; productRef = 6F04CE37237B538F00B0CB26 /* Calculator */; };
 		6F5E81E92376017000472777 /* Calculator_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E81E82376017000472777 /* Calculator_iOSUITests.swift */; };
 		6F8C0D822376024B00064590 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8C0D792376024B00064590 /* ViewController.swift */; };
-		6F8C0D832376024B00064590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8C0D7A2376024B00064590 /* Assets.xcassets */; };
 		6F8C0D842376024B00064590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8C0D7B2376024B00064590 /* LaunchScreen.storyboard */; };
 		6F8C0D852376024B00064590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8C0D7D2376024B00064590 /* Main.storyboard */; };
 		6F8C0D862376024B00064590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8C0D7F2376024B00064590 /* AppDelegate.swift */; };
@@ -36,13 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EFD487825757D4C00F1DE88 /* playstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playstore.png; sourceTree = "<group>"; };
+		2EFD487925757D4C00F1DE88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EFD487A25757D4C00F1DE88 /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore.png; sourceTree = "<group>"; };
 		6F5E81C32376016D00472777 /* Calculator iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5E81D92376017000472777 /* Calculator iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5E81E42376017000472777 /* Calculator iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5E81E82376017000472777 /* Calculator_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_iOSUITests.swift; sourceTree = "<group>"; };
 		6F5E81EA2376017000472777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F8C0D792376024B00064590 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6F8C0D7A2376024B00064590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F8C0D7C2376024B00064590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F8C0D7E2376024B00064590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F8C0D7F2376024B00064590 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,8 +123,10 @@
 		6F8C0D782376024B00064590 /* Calculator iOS */ = {
 			isa = PBXGroup;
 			children = (
+				2EFD487A25757D4C00F1DE88 /* appstore.png */,
+				2EFD487925757D4C00F1DE88 /* Assets.xcassets */,
+				2EFD487825757D4C00F1DE88 /* playstore.png */,
 				6F8C0D792376024B00064590 /* ViewController.swift */,
-				6F8C0D7A2376024B00064590 /* Assets.xcassets */,
 				6F8C0D7B2376024B00064590 /* LaunchScreen.storyboard */,
 				6F8C0D7D2376024B00064590 /* Main.storyboard */,
 				6F8C0D7F2376024B00064590 /* AppDelegate.swift */,
@@ -249,9 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EFD487D25757D4C00F1DE88 /* appstore.png in Resources */,
 				6F8C0D852376024B00064590 /* Main.storyboard in Resources */,
-				6F8C0D832376024B00064590 /* Assets.xcassets in Resources */,
 				6F8C0D842376024B00064590 /* LaunchScreen.storyboard in Resources */,
+				2EFD487C25757D4C00F1DE88 /* Assets.xcassets in Resources */,
+				2EFD487B25757D4C00F1DE88 /* playstore.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +469,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 101;
+				CURRENT_PROJECT_VERSION = 102;
 				DEVELOPMENT_TEAM = GFYHK7DAYZ;
 				INFOPLIST_FILE = "Calculator iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,7 +490,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 101;
+				CURRENT_PROJECT_VERSION = 102;
 				DEVELOPMENT_TEAM = GFYHK7DAYZ;
 				INFOPLIST_FILE = "Calculator iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
